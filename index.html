@@ -274,9 +274,11 @@
             padding-top: 10pt;
             padding-bottom: 10pt;
             line-height: 1.15;
-            orphans: 2;
-            widows: 2;
-            text-align: center
+            text-align: center;
+            text-wrap: wrap;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            word-break: break-all;
         }
 
         .c23 {
@@ -330,7 +332,8 @@
 
         .c25 {
             color: #3c78d8;
-            font-size: 9pt
+            font-size: 9pt;
+            text-wrap: wrap;
         }
 
         .c24 {
@@ -349,6 +352,11 @@
 
         .c11 {
             font-weight: 700
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
         }
 
         .title {
@@ -471,80 +479,86 @@
     </style>
 </head>
 
-<body class="c22 doc-content">
-    <div>
+<body>
+    <main class="c22 doc-content">
+        <div>
+            <p class="c1"><span class="c5"></span></p>
+        </div>
+        <h1 class="c19" id="h.rpggw7utv92d"><span class="c6">Meist verwendet:</span></h1>
+        <p class="c1"><span class="c5"></span></p><a id="t.cd5b67ac4a108c50cd9f6e8c37d1f634b50b3a18"></a><a
+            id="t.0"></a>
+        <table class="c4">
+            <tr class="c18">
+                <td class="c28" colspan="1" rowspan="1">
+                    <p class="c2"><span class="c23 c11">Google Calendar</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2"><span class="c23 c11">Apple Calendar (iOS)</span></p>
+                </td>
+                <td class="c0" colspan="1" rowspan="1">
+                    <p class="c2"><span class="c11 c23">Download (.ics)</span></p>
+                </td>
+            </tr>
+            <tr class="c18">
+                <td class="c15" colspan="1" rowspan="1">
+                    <p class="c12"><span class="c17"><a class="c7"
+                                href="https://calendar.google.com/calendar/embed?src%3Dee1c7150134ad9facf4642a02d2f3e2f6887b674e909805c6621faf84cd6fcd8%2540group.calendar.google.com%26ctz%3DEurope%252FBerlin">Klick</a></span>
+                    </p>
+                    <p class="c13"><span
+                            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 106.79px; height: 103.85px;"><a
+                                href="https://calendar.google.com/calendar/embed?src%3Dee1c7150134ad9facf4642a02d2f3e2f6887b674e909805c6621faf84cd6fcd8%2540group.calendar.google.com%26ctz%3DEurope%252FBerlin"><img
+                                    alt="" src="images/image1.png"
+                                    style="width: 106.79px; height: 106.35px; margin-left: 0.00px; margin-top: -1.25px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                                    title=""></a></span></p>
+                </td>
+                <td class="c29" colspan="1" rowspan="1">
+                    <p class="c12"><span class="c5">Hold &amp; Open</span></p>
+                    <p class="c13"><span
+                            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 108.26px; height: 105.41px;"><img
+                                alt="" src="images/image3.png"
+                                style="width: 108.26px; height: 107.95px; margin-left: 0.00px; margin-top: -1.27px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                                title=""></span></p>
+                </td>
+                <td class="c21" colspan="1" rowspan="1">
+                    <p class="c12"><span class="c17"><a class="c7"
+                                href="https://calendar.google.com/calendar/ical/ee1c7150134ad9facf4642a02d2f3e2f6887b674e909805c6621faf84cd6fcd8%2540group.calendar.google.com/public/basic.ics">Klick
+                                to Download</a></span></p>
+                    <p class="c13"><span
+                            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 107.15px; height: 102.73px;"><a
+                                href="https://calendar.google.com/calendar/ical/ee1c7150134ad9facf4642a02d2f3e2f6887b674e909805c6621faf84cd6fcd8%40group.calendar.google.com/public/basic.ics"><img
+                                    alt="" src="images/image2.png"
+                                    style="width: 107.15px; height: 105.19px; margin-left: 0.00px; margin-top: -1.23px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                                    title=""></a></span></p>
+                </td>
+            </tr>
+            <tr class="c18">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c10"><span class="c8">Unten rechts auf </span><span
+                            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 90.00px; height: 20.00px;"><img
+                                alt="" src="images/image4.png"
+                                style="width: 90.00px; height: 20.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                                title=""></span><span class="c16 c8">&nbsp;<br>tippen.</span></p>
+                </td>
+                <td class="c30" colspan="1" rowspan="1">
+                    <p class="c10"><span class="c8 c16">Den QR Code l&auml;nger gedr&uuml;ckt halten und
+                            &ldquo;&ouml;ffnen&rdquo;.</span></p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c14"><span class="c8">Der Kalender wird nach dem Download </span><span
+                            class="c8 c11">NICHT</span><span class="c8">&nbsp;fortlaufend aktualisiert.</span></p>
+                </td>
+            </tr>
+        </table>
         <p class="c1"><span class="c5"></span></p>
-    </div>
-    <h1 class="c19" id="h.rpggw7utv92d"><span class="c6">Meist verwendet:</span></h1>
-    <p class="c1"><span class="c5"></span></p><a id="t.cd5b67ac4a108c50cd9f6e8c37d1f634b50b3a18"></a><a id="t.0"></a>
-    <table class="c4">
-        <tr class="c18">
-            <td class="c28" colspan="1" rowspan="1">
-                <p class="c2"><span class="c23 c11">Google Calendar</span></p>
-            </td>
-            <td class="c3" colspan="1" rowspan="1">
-                <p class="c2"><span class="c23 c11">Apple Calendar (iOS)</span></p>
-            </td>
-            <td class="c0" colspan="1" rowspan="1">
-                <p class="c2"><span class="c11 c23">Download (.ics)</span></p>
-            </td>
-        </tr>
-        <tr class="c18">
-            <td class="c15" colspan="1" rowspan="1">
-                <p class="c12"><span class="c17"><a class="c7"
-                            href="http://calendar.google.com/calendar/embed?src%3Dee1c7150134ad9facf4642a02d2f3e2f6887b674e909805c6621faf84cd6fcd8%2540group.calendar.google.com%26ctz%3DEurope%252FBerlin">Klick</a></span>
-                </p>
-                <p class="c13"><span
-                        style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 106.79px; height: 103.85px;"><img
-                            alt="" src="images/image1.png"
-                            style="width: 106.79px; height: 106.35px; margin-left: 0.00px; margin-top: -1.25px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-                            title=""></span></p>
-            </td>
-            <td class="c29" colspan="1" rowspan="1">
-                <p class="c12"><span class="c5">Hold &amp; Open</span></p>
-                <p class="c13"><span
-                        style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 108.26px; height: 105.41px;"><img
-                            alt="" src="images/image3.png"
-                            style="width: 108.26px; height: 107.95px; margin-left: 0.00px; margin-top: -1.27px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-                            title=""></span></p>
-            </td>
-            <td class="c21" colspan="1" rowspan="1">
-                <p class="c12"><span class="c17"><a class="c7"
-                            href="http://calendar.google.com/calendar/ical/ee1c7150134ad9facf4642a02d2f3e2f6887b674e909805c6621faf84cd6fcd8%2540group.calendar.google.com/public/basic.ics">Klick
-                            to Download</a></span></p>
-                <p class="c13"><span
-                        style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 107.15px; height: 102.73px;"><img
-                            alt="" src="images/image2.png"
-                            style="width: 107.15px; height: 105.19px; margin-left: 0.00px; margin-top: -1.23px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-                            title=""></span></p>
-            </td>
-        </tr>
-        <tr class="c18">
-            <td class="c20" colspan="1" rowspan="1">
-                <p class="c10"><span class="c8">Unten rechts auf </span><span
-                        style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 90.00px; height: 20.00px;"><img
-                            alt="" src="images/image4.png"
-                            style="width: 90.00px; height: 20.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-                            title=""></span><span class="c16 c8">&nbsp;<br>tippen.</span></p>
-            </td>
-            <td class="c30" colspan="1" rowspan="1">
-                <p class="c10"><span class="c8 c16">Den QR Code l&auml;nger gedr&uuml;ckt halten und
-                        &ldquo;&ouml;ffnen&rdquo;.</span></p>
-            </td>
-            <td class="c26" colspan="1" rowspan="1">
-                <p class="c14"><span class="c8">Der Kalender wird nach dem Download </span><span
-                        class="c8 c11">NICHT</span><span class="c8">&nbsp;fortlaufend aktualisiert.</span></p>
-            </td>
-        </tr>
-    </table>
-    <p class="c1"><span class="c5"></span></p>
-    <h1 class="c9" id="h.kz9cegh1j52y"><span class="c6">Standard | ICal</span></h1>
-    <p class="c31"><span class="c16 c8">Zur Einbindung in einen beliebigen Kalender die URL kopieren und im bevorzugten
-            Programm als Kalender hinzuf&uuml;gen. (Nicht wundern: der Link ist nicht klickbar.)</span></p>
-    <p class="c12"><span class="c23 c11">Copy</span></p>
-    <p class="c27"><span
-            class="c25">http://calendar.google.com/calendar/ical/ee1c7150134ad9facf4642a02d2f3e2f6887b674e909805c6621faf84cd6fcd8%40group.calendar.google.com/public/basic.ics</span>
-    </p>
+        <h1 class="c9" id="h.kz9cegh1j52y"><span class="c6">Standard | ICal</span></h1>
+        <p class="c31"><span class="c16 c8">Zur Einbindung in einen beliebigen Kalender die URL kopieren und im
+                bevorzugten
+                Programm als Kalender hinzuf&uuml;gen. (Nicht wundern: der Link ist nicht klickbar.)</span></p>
+        <p class="c12"><span class="c23 c11">Copy</span></p>
+        <p class="c27"><span class="c25"><a style="text-decoration: none; color: inherit;"
+                    href="https://calendar.google.com/calendar/ical/ee1c7150134ad9facf4642a02d2f3e2f6887b674e909805c6621faf84cd6fcd8%40group.calendar.google.com/public/basic.ics">https://calendar.google.com/calendar/ical/ee1c7150134ad9facf4642a02d2f3e2f6887b674e909805c6621faf84cd6fcd8%40group.calendar.google.com/public/basic.ics</a></span>
+        </p>
+    </main>
 </body>
 
 </html>
