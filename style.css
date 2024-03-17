@@ -31,6 +31,7 @@
     --title-size-dynamic: clamp(2rem, 6vw, 4rem);
 
     --border-radius: 1rem;
+    --border-radius-inner: 0.5rem;
     --border-radius-interaction: 100vw;
 
     --spacing: 1rem;
@@ -188,7 +189,7 @@ h2 {
 }
 
 .card-img {
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-inner);
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: contain;
