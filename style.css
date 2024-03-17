@@ -36,10 +36,10 @@
     --spacing: 1rem;
     --spacing-half: 0.5rem;
     --spacing-double: 2rem;
-    --spacing-dynamic: clamp(var(--spacing), 1vw, var(--spacing-double));
+    --spacing-dynamic: clamp(var(--spacing-half), 1vw, var(--spacing-double));
 
     --padding: 1rem;
-    --padding-half: 0.25rem;
+    --padding-half: 0.5rem;
     --padding-double: 2rem;
     --padding-dynamic: clamp(var(--padding-half), 1vw, var(--padding));
 
@@ -204,7 +204,6 @@ h2 {
 .card-desc {
     font-size: var(--font-size-small-dynamic);
     color: rgba(var(--color-on-background-rgb), 0.5);
-    margin-inline-start: 0.5rem;
 }
 
 strong {
