@@ -1,4 +1,6 @@
 <svg width="2139" height="2139" viewBox="0 0 2139 2139" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_106_5510)">
+<rect width="2139" height="2139" fill="black" fill-opacity="0.5"/>
 <mask id="mask0_106_5510" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="62" y="62" width="2015" height="2015">
 <path d="M325.5 62C334.061 62 341 68.9397 341 77.5C341 86.0608 334.061 93 325.5 93C316.94 93 310 86.0608 310 77.5C310 68.9397 316.94 62 325.5 62Z" fill="white"/>
 <path d="M418.5 62C427.061 62 434 68.9397 434 77.5C434 86.0608 427.061 93 418.5 93C409.94 93 403 86.0608 403 77.5C403 68.9397 409.94 62 418.5 62Z" fill="white"/>
@@ -1846,6 +1848,7 @@
 <path d="M1113.74 931.412C1117.35 931.412 1120.28 928.482 1120.28 924.868C1120.28 921.253 1117.35 918.323 1113.74 918.323C1110.13 918.323 1107.2 921.253 1107.2 924.868C1107.2 928.482 1110.13 931.412 1113.74 931.412Z" fill="white"/>
 <path d="M1125.13 905.889C1126.93 905.889 1128.4 904.424 1128.4 902.617C1128.4 900.809 1126.93 899.344 1125.13 899.344C1123.32 899.344 1121.86 900.809 1121.86 902.617C1121.86 904.424 1123.32 905.889 1125.13 905.889Z" fill="white"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1009.36 964.134C1009.14 965.191 1009.03 966.286 1009.03 967.407C1009.03 976.443 1016.35 983.768 1025.39 983.768C1034.43 983.768 1041.75 976.443 1041.75 967.407C1041.75 966.286 1041.64 965.191 1041.42 964.134H1009.36Z" fill="black"/>
+</g>
 <defs>
 <radialGradient id="paint0_radial_106_5510" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1069.5 1069.5) scale(1007.5)">
 <stop offset="0.05" stop-color="#6798FF"/>
@@ -1879,5 +1882,8 @@
 <stop stop-color="#92EAE5"/>
 <stop offset="1" stop-color="#B18FCC"/>
 </linearGradient>
+<clipPath id="clip0_106_5510">
+<rect width="2139" height="2139" fill="white"/>
+</clipPath>
 </defs>
 </svg>
