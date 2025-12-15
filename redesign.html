@@ -1,4 +1,24 @@
 <!DOCTYPE html>
+<!-- 
+    This website is intended to distribute the CampusKino HS Harz Programmkalender for different calendar app. 
+    It displays 4 ways to include the programmkalender specified for each app.
+    - For Google Calendar users (Link)
+    - For Apple Calendar users (QR Code + instructions)
+    - As downloadable .ics (Link)
+    - For anyone as iCal/ICS-Stream. (URL)
+    
+    This is an updated version of `index.html` and was rebuild from scratch.
+    - responsive layout
+    - light and dark versions
+    - updated design
+   !- Should function as well as `index.html`.
+
+    Uses:
+    - `reset.css` for resetting browser default styles
+    - `style.css` for custom styles
+
+    @author cody0-0 https://github.com/cody0-0/
+-->
 <html lang="en">
 
 <head>
@@ -16,8 +36,12 @@
     </header>
     <main>
         <section>
+            <!-- 
+            This section portrays the most used methods to add the calendar side by side.
+            -->
             <h2>Meist verwendet...</h2>
             <div class="grid">
+                <!-- The Google Calendar Card. -->
                 <a class="card"
                     href="https://calendar.google.com/calendar/embed?src=ee1c7150134ad9facf4642a02d2f3e2f6887b674e909805c6621faf84cd6fcd8%40group.calendar.google.com&ctz=Europe%2FBerlin">
                     <h3 class="card-title">Google Calendar</h3>
@@ -28,6 +52,7 @@
                         tippen.
                     </p>
                 </a>
+                <!-- The Apple Calendar Card. -->
                 <div class="card">
                     <h3 class="card-title">Apple Calendar (iOS)</h3>
                     <img src="images/cali_qr-code_light.png" alt="" class="card-img light-only">
@@ -35,6 +60,7 @@
                     <div class="divider"></div>
                     <p class="card-desc">Den QR Code länger gedrückt halten und “öffnen”.</p>
                 </div>
+                <!-- The Downloadable .ics Card. -->
                 <a class="card"
                     href="https://calendar.google.com/calendar/ical/ee1c7150134ad9facf4642a02d2f3e2f6887b674e909805c6621faf84cd6fcd8%40group.calendar.google.com/public/basic.ics">
                     <h3 class="card-title">Download (.ics)</h3>
@@ -48,6 +74,11 @@
             </div>
         </section>
         <section>
+            <!-- 
+            This section portrays the standard iCal/ICS-Stream method.
+            It is more of a hazard to use, so it is placed in a separate section.
+            (The link can be copied from here.)
+            -->
             <h2>Standard | ICal</h2>
             <div class="card">
                 <h3 class="card-title">Copy</h3>
@@ -55,6 +86,10 @@
                     href="https://calendar.google.com/calendar/ical/ee1c7150134ad9facf4642a02d2f3e2f6887b674e909805c6621faf84cd6fcd8%40group.calendar.google.com/public/basic.ics">https://calendar.google.com/calendar/ical/ee1c7150134ad9facf4642a02d2f3e2f6887b674e909805c6621faf84cd6fcd8%40group.calendar.google.com/public/basic.ics</a>
             </div>
         </section>
+        <!-- 
+            Link to the old version of this website.
+            (index.html)
+        -->
         <a style="color: rgba(var(--color-on-background-rgb, black), 0.5); font-size:0.5rem" href="./index.html">Old
             Version</a>
     </main>
